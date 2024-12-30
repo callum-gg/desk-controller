@@ -1,0 +1,48 @@
+:root {
+    --colour-black: #080B0F;
+    --colour-white: #FAFAFF;
+    --colour-blue: #3F84E5;
+    --colour-dblue: #336cbd;
+    --colour-navy: #020912;
+    --colour-red: #C43331;
+    --colour-green: #95E06C;
+    --colour-orange: #F89225;
+    --font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--colour-navy);
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: var(--colour-blue);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 240px;
+}
+
+/**/
+
+#buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+#spacer {
+    width: 100px;
+}
